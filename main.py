@@ -2,7 +2,6 @@ try:
 	import os
 	import telebot
 	import info
-	from pytube import YouTube
 except:
 	os.system('pip3 install pyTelegramBotAPI')
 
