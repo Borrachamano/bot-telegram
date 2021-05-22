@@ -2,6 +2,7 @@ try:
 	import os
 	import telebot
 	import info
+        from random import randint 
 except:
 	os.system('pip3 install pyTelegramBotAPI')
 
