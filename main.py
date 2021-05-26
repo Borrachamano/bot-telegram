@@ -5,6 +5,7 @@ try:
         from random import randint 
 except:
 	os.system('pip3 install pyTelegramBotAPI')
+        import telebot
 
 token = info.token
 bot = telebot.TeleBot(token) # Conectando nosso programa com o bot
